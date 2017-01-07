@@ -4,11 +4,57 @@
 	<title></title>
 </head>
 <body>
-	<div class="container">
-		<div class="title">
-			Pomodoro Clock
-		</div>
-	</div>
+ <div id="test">pop</div>
+<button onclick="test()">POP</button>
+
+<div class="container">
+  <div class="title"> 
+   Pomodoro Clock
+  </div>
+  
+  <div class="top">
+    <div class="top_section">
+      <div class="div_session">
+        <p class="session">Session</p>
+        <p class="break">Break</p>
+      </div>
+    </div>
+    
+    <div class="lower_section">
+      <div class="number_session">
+        <button class="decrease_number_session"          onclick="decrease_session()">dec</button>
+        <span id="session_number" class="number">25</span>
+        <button class="increase_number_session" onclick="increase_session()">inc</button>
+      </div>
+      <div class="number_break">
+        <button class="decrease_number_break" onclick="decrease_break()">dec</button>
+        <span id="break_number" class="number">5</span>
+        <button class="increase_number_break" onclick="increase_break()">inc</button>
+      </div>
+    </div>
+  </div>
+  <div class="separator">
+  
+  </div>
+  <div class="timer_window">
+      <div class="div_margin">
+      </div>
+      <div class="window_top">
+        <button class="start_timer">Start</button>
+        <button class="restart_timer">Restart</button>
+      </div>
+      <div class="window_session">
+        <p class="window_session">Session</p>
+      </div>
+      <div class="window_middle">
+        <span id="timer">25:00</span>
+      </div>
+      <div class="window_lower">
+        <button class="pause_timer">Pause</button>
+        <button class="stop_timer">Stop</button>
+      </div>
+  </div>
+
 <script src="scripts/index.js"> </script>
 </body>
 </html>
