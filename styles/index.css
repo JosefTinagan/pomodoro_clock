@@ -42,7 +42,7 @@ p{
   margin-left: 80px;
 }
 .break{
-  margin-left: 6em;
+  margin-left: 5em;
 }
 
 .lower_section{
@@ -57,12 +57,21 @@ p{
   margin-right: 25px;
   font-family: Orbitron;
   font-size: 1.5em;
+
+}
+
+.zz{
+	width: 75px;
+	display: inline-block;
+	
 }
 
 .number_session{
   float: left;
 }
 .number_break{
+   
+  margin-top: -30px;
   margin-left: 80px;
   float: right;
 }

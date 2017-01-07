@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
 	<title></title>
+
 </head>
 <body>
  <div id="test">pop</div>
@@ -22,13 +24,13 @@
     
     <div class="lower_section">
       <div class="number_session">
-        <button class="decrease_number_session"          onclick="decrease_session()">dec</button>
-        <span id="session_number" class="number">25</span>
+        <button class="decrease_number_session" onclick="decrease_session()">dec</button>
+        <div class="zz"><span id="session_number" class="number">25</span></div>
         <button class="increase_number_session" onclick="increase_session()">inc</button>
       </div>
       <div class="number_break">
         <button class="decrease_number_break" onclick="decrease_break()">dec</button>
-        <span id="break_number" class="number">5</span>
+        <div class="zz"><span id="break_number" class="number">5</span></div>
         <button class="increase_number_break" onclick="increase_break()">inc</button>
       </div>
     </div>
@@ -40,7 +42,7 @@
       <div class="div_margin">
       </div>
       <div class="window_top">
-        <button class="start_timer">Start</button>
+        <button class="start_timer" onclick="start_timer()">Start</button>
         <button class="restart_timer">Restart</button>
       </div>
       <div class="window_session">
