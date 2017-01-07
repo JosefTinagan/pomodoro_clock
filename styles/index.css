@@ -1,0 +1,125 @@
+body {
+  background-color: #555;
+}
+
+.title{
+  
+  margin-top: 80px;
+  margin-left: 200px;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.top{
+margin-left: 100px;
+  width: 450px;
+  height: 100px;
+  background-color: black;
+  
+}
+
+.top_section{
+  
+  height: 40px;
+  width: 450px;
+  
+}
+
+p{  
+  font-family: Oswald;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  display: inline;
+}
+
+.div_session{
+  margin-top: 5px
+  float: left; 
+}
+
+.session{
+  margin-left: 80px;
+}
+.break{
+  margin-left: 6em;
+}
+
+.lower_section{
+  float: left;
+  margin-left: 20px;
+}
+
+
+.number{
+  color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-family: Orbitron;
+  font-size: 1.5em;
+}
+
+.number_session{
+  float: left;
+}
+.number_break{
+  margin-left: 80px;
+  float: right;
+}
+
+.separator{
+  margin-top: 15px;
+}
+.timer_window{
+  background-color: black;  
+  margin-left: 100px;
+  width: 450px;
+  height: 200px;
+}
+
+.div_margin{
+  height : 5px;
+}
+
+.window_top{
+  margin-left: 30px;
+}
+
+.start_timer{
+  margin-left: 30px;
+  margin-right: 200px;
+}
+
+.window_session > p{
+  margin-left: 175px;
+
+  font-size: 24px;
+}
+
+.window_middle{
+  margin-left: 150px;
+  font-size: 50px;
+  color: white;
+}
+
+.window_lower{
+  margin-left: 60px;
+}
+
+.pause_timer{
+  margin-right: 200px;
+}
+
+
+.buttons_row{
+  margin-left: 220px;
+}
+
+.timer{
+  margin-left: 260px;
+  font-size: 40px;
+}
+
+#test{
+  color: blue;
+}
